@@ -2,7 +2,7 @@
 
 // you can put anything in a namespace: classes, constants, anything.
 //can export items from within namespaces, very cool.
-namespace DDInterfaces {
+namespace App {
   export interface Draggable {
     dragStartHandler(event: DragEvent): void;
     dragEndHandler(event: DragEvent): void;
