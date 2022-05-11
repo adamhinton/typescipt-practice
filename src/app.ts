@@ -1,6 +1,7 @@
 //you add three slashes to import from namespace
 //write self closing xml tag and file name as reference path
 /// <reference path = "drag-drop-interfaces.ts"/>
+///<reference path = "project.model.ts"/>
 
 namespace App {
   // Project State Management
