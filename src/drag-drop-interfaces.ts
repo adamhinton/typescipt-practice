@@ -1,4 +1,6 @@
 // Drag & Drop Interfaces
+
+// you can put anything in a namespace: classes, constants, anything.
 namespace DDInterfaces {
   interface Draggable {
     dragStartHandler(event: DragEvent): void;
