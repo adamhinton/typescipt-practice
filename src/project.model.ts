@@ -1,3 +1,4 @@
+namespace App {}
 // Project Type
 enum ProjectStatus {
   Active,
