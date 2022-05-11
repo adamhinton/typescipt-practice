@@ -1,3 +1,6 @@
+//you add three slashes to import from namespace
+///
+
 // Project Type
 enum ProjectStatus {
   Active,
