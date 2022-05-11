@@ -1,4 +1,5 @@
 // Drag & Drop Interfaces
+namespace DDInterfaces {}
 interface Draggable {
   dragStartHandler(event: DragEvent): void;
   dragEndHandler(event: DragEvent): void;
