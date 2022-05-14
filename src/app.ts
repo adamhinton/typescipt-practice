@@ -4,6 +4,8 @@
 ///<reference path = "models/project.ts"/>
 ///<reference path = "state/project-state.ts"/>
 ///<reference path = "decorators/autobind.ts"/>
+///<reference path = "components/project-input.ts"/>
+///<reference path = "components/project-list.ts"/>
 // This means we tell TS where to find this info
 
 namespace App {
