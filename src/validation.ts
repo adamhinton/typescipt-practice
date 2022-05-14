@@ -1,4 +1,4 @@
-namespace Aoo {
+namespace App {
   // Validation
   export interface Validatable {
     value: string | number;
