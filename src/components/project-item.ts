@@ -1,6 +1,6 @@
 namespace App {
   // ProjectItem Class
-  class ProjectItem
+  export class ProjectItem
     extends Component<HTMLUListElement, HTMLLIElement>
     implements Draggable
   {
