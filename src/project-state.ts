@@ -10,7 +10,7 @@ namespace App {
     }
   }
 
-  class ProjectState extends State<Project> {
+  export class ProjectState extends State<Project> {
     private projects: Project[] = [];
     private static instance: ProjectState;
 
@@ -53,5 +53,5 @@ namespace App {
     }
   }
 
-  const projectState = ProjectState.getInstance();
+  export const projectState = ProjectState.getInstance();
 }

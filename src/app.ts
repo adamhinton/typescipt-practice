@@ -2,6 +2,7 @@
 //write self closing xml tag and file name as reference path
 /// <reference path = "drag-drop-interfaces.ts"/>
 ///<reference path = "project-model.ts"/>
+///<reference path = "project-state.ts"/>
 // This means we tell TS where to find this info
 
 namespace App {
