@@ -1,7 +1,3 @@
-/// <reference path="base-component.ts" />
-///<reference path = "../decorators/autobind.ts"/>
-///<reference path = "../models/project.ts"/>
-///<reference path = "../models/drag-drop.ts"/>
 import { Draggable } from "../models/drag-drop.js";
 
 // ProjectItem Class
