@@ -1,8 +1,3 @@
-//you add three slashes to import from namespace
-//write self closing xml tag and file name as reference path
-///<reference path = "components/project-input.ts"/>
-///<reference path = "components/project-list.ts"/>
-
 namespace App {
   new ProjectInput();
   new ProjectList("active");
