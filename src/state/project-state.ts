@@ -53,6 +53,7 @@ export class ProjectState extends State<Project> {
     }
   }
 }
+console.log("running");
 
 // we're importing this in multiple other files.
 // Does this code run once or twice or how often?
