@@ -1,4 +1,5 @@
 // this one is defaul so I can call it anything I want
+// instructor prefers named exports
 import Cmp from "./base-component.js";
 import * as Validation from "../util/validation.js";
 import { autobind } from "../decorators/autobind.js";
