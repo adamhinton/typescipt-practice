@@ -1,10 +1,11 @@
-import { Component } from "./base-component.js";
+// this one is defaul so I can call it anything I want
+import Cmp from "./base-component.js";
 import * as Validation from "../util/validation.js";
 import { autobind } from "../decorators/autobind.js";
 import { projectState } from "../state/project-state.js";
 
 // ProjectInput Class
-export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
+export class ProjectInput extends Cmp<HTMLDivElement, HTMLFormElement> {
   titleInputElement: HTMLInputElement;
   descriptionInputElement: HTMLInputElement;
   peopleInputElement: HTMLInputElement;

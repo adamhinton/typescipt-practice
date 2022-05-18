@@ -1,5 +1,7 @@
 // Component Base Class
 
+// can import this as anything I want
+// can only have one default per file
 export default abstract class Component<
   T extends HTMLElement,
   U extends HTMLElement
